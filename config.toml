@@ -1,0 +1,37 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# When set to "true", a feed is automatically generated.
+generate_feed = true
+
+taxonomies = [
+    {name = "categories"},
+    {name = "tags", paginate_by = 5, rss = true}
+]
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+theme = "Zulma"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+zulma_theme = "slate"
+
+zulma_menu = [
+    {url = "$BASE_URL/categories", name = "카테고리"},
+    {url = "$BASE_URL/tags", name = "태그"},
+    {url = "$BASE_URL/atom.xml", name = "Atom"},
+    {url = "https://github.com/hatchling13", name = "GitHub"}
+]
+
+zulma_brand = {text = "Hatchery"}
+zulma_title = "Try to terminate everything gracefully. Even your life."
