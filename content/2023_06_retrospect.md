@@ -1,7 +1,7 @@
 +++
 title = "2023년 6월 회고"
 description = "2023년의 50%가 흘렀습니다"
-date = 2023-07-01
+date = 2023-06-30
 
 [taxonomies]
 categories = ["retrospect"]
