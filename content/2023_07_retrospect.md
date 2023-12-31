@@ -21,7 +21,7 @@ tags = ["회고"]
 저번 달 글에도 이미 썼던 바 있지만, 함수형 프로그래밍 개념을 메인으로 내세우는 언어를 한 번은 써보겠다는 생각은 있었어도 실제로 실행에 옮기지는 않았었다. 막연하게 어렵겠다고만 생각해서 감히 시도할 생각을 못했지만, 이번 기회를 통해 제대로 시간을 들여서 숙련도를 높여봐야겠다.
 
 ## 범주론에 대한 간단한 이해
-함수형 프로그래밍에 자주 등장하는 대수적 자료형(Algebraic Data Type, ADT)에 대한 이해를 높이기 위해, ADT와 그 이론적 기초가 되는 범주론에 대해 [공부한 바를 정리하는 글](https://blog.hatchling.dev/algebraic-data-type/)을 썼다. 동영상 강의를 들으며 머리에 김나는 느낌을 받은 건 참 오랜만이었던 것 같다.
+함수형 프로그래밍에 자주 등장하는 대수적 자료형(Algebraic Data Type, ADT)에 대한 이해를 높이기 위해, ADT와 그 이론적 기초가 되는 범주론에 대해 [공부한 바를 정리하는 글](https://hatchery.pages.dev/algebraic-data-type/)을 썼다. 동영상 강의를 들으며 머리에 김나는 느낌을 받은 건 참 오랜만이었던 것 같다.
 
 ## [Advent of Code 2022](https://github.com/hatchling13/advent-of-code-2022) 도전
 Scala에 익숙해지기 위해 개인적으로 연습을 해야겠다는 생각이 들었는데, 뭘 할까 생각하다가 예전에 봐뒀던 [Advent of Code](https://en.wikipedia.org/wiki/Advent_of_Code)를 도전해보기로 했다. 일반적으로 할 만한 백준이나 LeetCode가 아니라 AoC를 고른 이유는 다음과 같다:
